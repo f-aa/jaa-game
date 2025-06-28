@@ -152,7 +152,7 @@ Buildings
 		on tick:yield 84800 bunnies
 		req:19900000 bunnies:earned and independenceDay
 
-	*storm bringer|storm bringers
+	*stormbringer|stormbringers
 		name:storm bringer|storm bringers
 		desc:evaporates water into clouds to make it rain more so plants grow faster.<//><b>Effect:</b><.>Produces 253000 plants per second.
 		icon:icons[3,11]
