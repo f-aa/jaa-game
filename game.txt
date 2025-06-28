@@ -144,13 +144,21 @@ Buildings
 		on tick:yield 12560 bunnies
 		req:9500000 bunnies:earned and independenceDay
 
+	*condencer|condencers
+		name:condencer|condencers
+		des:creates plants out of trash!<//><b>Effect:</b><.>Produces 84800 plants per second.
+		icon:icons[3,10]
+		cost:19900000
+		on tick:yield 84800 bunnies
+		req:19900000 bunnies:earned and independenceDay
+
 	*fortress
 		name:the core seed
 		text:the core seed ([this]%)
 		desc:This is it. the core seed. once this is created and planted, the plants will finaly rule the world!<//><b>The core seed is [this]% complete.</b>
 		icon:icons[3,8]
-		cost:20000000 bunnies
-		req:20000000 bunnies:earned and independenceDay
+		cost:50000000 bunnies
+		req:50000000 bunnies:earned and independenceDay
 		limit:100
 		cost increase:100%
 		
