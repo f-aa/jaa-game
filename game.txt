@@ -39,8 +39,8 @@ Resources
 		show earned
 		
 	*goldenCarrot|goldenCarrots
-		name:Golden carrot|Golden carrots
-		desc:These shiny carrots are terribly rare, terribly precious and terribly delicious!
+		name:Golden leaf|golden leafs
+		desc:These shiny things are very valuable and rare.
 		icon:icons[0,1]
 		class:noBackground
 		hidden when 0
