@@ -146,7 +146,7 @@ Buildings
 
 	*condencer|condencers
 		name:condencer|condencers
-		des:creates plants out of trash!<//><b>Effect:</b><.>Produces 84800 plants per second.
+		desc:creates plants out of trash!<//><b>Effect:</b><.>Produces 84800 plants per second.
 		icon:icons[3,10]
 		cost:19900000
 		on tick:yield 84800 bunnies
