@@ -18,7 +18,7 @@ Layout
 		
 Buttons
 	*bunnyButton
-		name:get some plants!
+		name:Get some plants!
 		desc:Click this leaf to get more plants!
 		on click:anim icon wobble
 		on click:yield 1 bunny
