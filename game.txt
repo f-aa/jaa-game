@@ -139,7 +139,7 @@ Buildings
 	*multiplier|multipliers
 		name:multiplier|multipliers
 		desc:clones plants to make even more plants!<//><b>Effect:</b><.>Produces 12560 plants per second.
-		icon:icons[3,8]
+		icon:icons[3,9]
 		cost:9500000 bunnies
 		on tick:yield 12560 bunnies
 		req:9500000 bunnies:earned and independenceDay
