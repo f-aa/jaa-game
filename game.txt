@@ -135,16 +135,24 @@ Buildings
 		cost:2400000 bunnies
 		on tick:yield 6720 bunnies
 		req:2400000 bunnies:earned and independenceDay
-		
+
+	*multiplier|multipliers
+		name:multiplier|multipliers
+		desc:clones plants to make even more plants!<//><b>Effect:</b><.>Produces 12560 plants per second.
+		icon:icons[3,8]
+		cost:9500000 bunnies
+		on tick:yield 12560 bunnies
+		req:9500000 bunnies:earned and independenceDay
+
 	*fortress
 		name:the core seed
 		text:the core seed ([this]%)
 		desc:This is it. the core seed. once this is created and planted, the plants will finaly rule the world!<//><b>The core seed is [this]% complete.</b>
 		icon:icons[3,8]
-		cost:10000000 bunnies
-		req:10000000 bunnies:earned and independenceDay
-		limit:50
-		cost increase:105%
+		cost:20000000 bunnies
+		req:20000000 bunnies:earned and independenceDay
+		limit:100
+		cost increase:100%
 		
 Upgrades
 	*TEMPLATE
@@ -160,7 +168,7 @@ Upgrades
 		cost:100 bunnies
 		passive:increase bunny yield of bunnyButton by 1
 		req:10 bunnies:earned
-		
+		0
 	*spinach
 		name:Spinach
 		desc:Big tasty leaves, perfect for hungry bunnies.<//><b>Effect:</b><.>+1 bunny/click
@@ -339,7 +347,7 @@ Upgrades
 		icon:icons[2,7]
 		cost:25000 bunnies
 		req:25000 bunnies:earned
-		
+
 	*clover
 		name:Clover
 		desc:A delicious herb that tastes lucky.<//><b>Effect:</b><.>lucky bunny effects are 4 times more powerful
