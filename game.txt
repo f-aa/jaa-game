@@ -152,13 +152,21 @@ Buildings
 		on tick:yield 84800 bunnies
 		req:19900000 bunnies:earned and independenceDay
 
+	*storm bringer|storm bringers
+		name:storm bringer|storm bringers
+		desc:evaporates water into clouds to make it rain more so plants grow faster.<//><b>Effect:</b><.>Produces 253000 plants per second.
+		icon:icons[3,11]
+		cost:88800000 bunnies
+		on tick:yield 253000 bunnies
+		req:88800000 bunnies:earned and independenceDay
+
 	*fortress
 		name:the core seed
 		text:the core seed ([this]%)
 		desc:This is it. the core seed. once this is created and planted, the plants will finaly rule the world!<//><b>The core seed is [this]% complete.</b>
 		icon:icons[3,8]
-		cost:50000000 bunnies
-		req:50000000 bunnies:earned and independenceDay
+		cost:200000000 bunnies
+		req:200000000 bunnies:earned and independenceDay
 		limit:100
 		cost increase:100%
 		
