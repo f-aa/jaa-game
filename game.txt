@@ -277,8 +277,9 @@ Upgrades
 		desc:The rarest leaf of them all! Almost impossible to find!<//><b>Effect:</b><.>plants/click x5
 		icon:icons[1,10]
 		cost:1000000000 bunnies
-		passive:multiply bunny yeild of bunnyButton by 5
+		passive:multiply bunny yield of bunnyButton by 5
 		req:1000000000 bunnies:earned
+
 	//building upgrades
 	
 	*buildingUpgrade1
