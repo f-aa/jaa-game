@@ -173,8 +173,8 @@ Buildings
 		text:the core seed ([this]%)
 		desc:This is it. the core seed. once this is created and planted, the plants will finaly rule the world!<//><b>The core seed is [this]% complete.</b>
 		icon:icons[3,8]
-		cost:200000000 bunnies
-		req:200000000 bunnies:earned and independenceDay
+		cost:1000000000 bunnies
+		req:1000000000 bunnies:earned and independenceDay
 		limit:100
 		cost increase:100%
 		
@@ -271,7 +271,14 @@ Upgrades
 		passive:multiply bunny yield of bunnyButton by 2
 		passive:multiply yield of bunnies by 1.1
 		req:1000000 bunnies:earned
-	
+
+	*ranbowleaf
+		name:rainbow leaf
+		desc:The rarest leaf of them all! Almost impossible to find!<//><b>Effect:</b><.>plants/click x5
+		icon:icons[1,10]
+		cost:1000000000 bunnies
+		passive:multiply bunny yeild of bunnyButton by 5
+		req:1000000000 bunnies:earned
 	//building upgrades
 	
 	*buildingUpgrade1
