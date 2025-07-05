@@ -397,7 +397,7 @@ Upgrades
 		cost:5 goldenCarrots
 		req:1 goldenCarrot:earned
 	
-	*independenceDay
+	*Technology
 		name:Technology
 		desc:You learned that Technology isn't always bad for the environment. It can also help. You decided to take advantage of this.<//><b>Effect:</b><.>unlocks new buildings
 		icon:icons[2,7]
