@@ -118,63 +118,71 @@ Buildings
 		icon:icons[3,5]
 		cost:50000 bunnies
 		on tick:yield 555 bunnies
-		req:50000 bunnies:earned and independenceDay
+		req:50000 bunnies:earned
 		
 	*city|cities
 		name:greenhouse|greenhouses
-		desc:A perfict house with glass to let the sunlight in.<//><b>Effect:</b><.>Produces 2200 plants per second.
+		desc:A perfict house with glass to let the sunlight in.<//><b>Effect:</b><.>Produces 2.2k plants per second.
 		icon:icons[3,6]
 		cost:350000 bunnies
 		on tick:yield 2200 bunnies
-		req:350000 bunnies:earned and independenceDay
+		req:350000 bunnies:earned
 		
 	*citadel|citadels
 		name:island|islands
-		desc:A private island just for plants!<//><b>Effect:</b><.>Produces 6720 plants per second.
+		desc:A private island just for plants!<//><b>Effect:</b><.>Produces 6.72k plants per second.
 		icon:icons[3,7]
 		cost:2400000 bunnies
 		on tick:yield 6720 bunnies
-		req:2400000 bunnies:earned and independenceDay
+		req:2400000 bunnies:earned
 
 	*multiplier|multipliers
 		name:multiplier|multipliers
-		desc:clones plants to make even more plants!<//><b>Effect:</b><.>Produces 12560 plants per second.
+		desc:clones plants to make even more plants!<//><b>Effect:</b><.>Produces 12.56k plants per second.
 		icon:icons[3,9]
 		cost:9500000 bunnies
 		on tick:yield 12560 bunnies
-		req:9500000 bunnies:earned and independenceDay
+		req:9500000 bunnies:earned and Technology
 
 	*condencer|condencers
 		name:condencer|condencers
-		desc:creates plants out of trash!<//><b>Effect:</b><.>Produces 84800 plants per second.
+		desc:creates plants out of trash!<//><b>Effect:</b><.>Produces 84.8k plants per second.
 		icon:icons[3,10]
 		cost:19900000 bunnies
 		on tick:yield 84800 bunnies
-		req:19900000 bunnies:earned and independenceDay
+		req:19900000 bunnies:earned and Technology
 
 	*stormbringer|stormbringers
 		name:storm bringer|storm bringers
-		desc:evaporates water into clouds to make it rain more so plants grow faster.<//><b>Effect:</b><.>Produces 253000 plants per second.
+		desc:evaporates water into clouds to make it rain more so plants grow faster.<//><b>Effect:</b><.>Produces 253k plants per second.
 		icon:icons[3,11]
 		cost:88800000 bunnies
 		on tick:yield 253000 bunnies
-		req:88800000 bunnies:earned and independenceDay
+		req:88800000 bunnies:earned and Technology
 
 	*Digitalplanter|Digitalplanters
 		name:Digital planter|Digital planters
-		desc:Plants digital plants in the internet!<//><b>Effect:</><.>Produces 1100000 plants per second.
+		desc:Plants digital plants in the internet!<//><b>Effect:</><.>Produces 1.1m plants per second.
 		icon:icons[3,12]
 		cost:3660000000 bunnies
 		on tick:yield 1100000 bunnies
-		req:3660000000 bunnies:earned and independenceDay
+		req:3660000000 bunnies:earned and Technology
+
+	*3Dprinter|3Dprinters
+		name:3D printer|3D printers
+		desc:prints plants out of thin air.<//><b>Effect:</><.>Produces 24.3m plants per second.
+		icon:icons[3,13]
+		cost:87000000000 bunnies
+		on tick:yield 24300000 bunnies
+		req:87000000000 bunnies:earned and Technology
 
 	*fortress
 		name:the core seed
 		text:the core seed ([this]%)
 		desc:This is it. the core seed. once this is created and planted, the plants will finaly rule the world!<//><b>The core seed is [this]% complete.</b>
 		icon:icons[3,8]
-		cost:1000000000 bunnies
-		req:1000000000 bunnies:earned and independenceDay
+		cost:100000000000 bunnies
+		req:100000000000 bunnies:earned and Technology
 		limit:100
 		cost increase:100%
 		
@@ -280,6 +288,22 @@ Upgrades
 		passive:multiply bunny yield of bunnyButton by 5
 		req:1000000000 bunnies:earned
 
+	*superBush
+		name:Super Bush
+		desc:This special bush grows seeds instead of strawberries!<//><b>Effect:</b><.>plants/click x5
+		icon:icons[1,11]
+		cost:5000000000 bunnies
+		passive:multiply bunny yield of bunnyButton by 5
+		req:5000000000 bunnies:earned
+
+	*fireFlower
+		name:fire Flower
+		desc:A special type of flower that infinitely burns, but never burns anything.<//><b>Effect:</b><.>plants/click x5
+		icon:icons[1,12]
+		cost:10000000000 bunnies
+		passive:multiply bunny yield of bunnyButton by 5
+		req:10000000000 bunnies:earned
+
 	//building upgrades
 	
 	*buildingUpgrade1
@@ -374,11 +398,11 @@ Upgrades
 		req:1 goldenCarrot:earned
 	
 	*independenceDay
-		name:Independence day
-		desc:Your bunnies are making their first step towards declaring their independence from the oppressive shackles of pens and cages.<//><b>Effect:</b><.>unlocks new buildings
+		name:Technology
+		desc:You learned that Technology isn't always bad for the environment. It can also help. You decided to take advantage of this.<//><b>Effect:</b><.>unlocks new buildings
 		icon:icons[2,7]
-		cost:25000 bunnies
-		req:25000 bunnies:earned
+		cost:10000000 bunnies
+		req:10000000 bunnies:earned
 
 	*clover
 		name:Clover
