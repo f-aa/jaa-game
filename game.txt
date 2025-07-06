@@ -1,6 +1,6 @@
 Let's make a game!
 	name:Clickerooni
-	by:Orteil
+	by:DemonDasher42
 	desc:This is a simple idle game to showcase some of the basic functionalities of Idle Game Maker.<//>Make bunnies and shoot for the stars!
 	created:25/7/2017
 	updated:24/10/2017
