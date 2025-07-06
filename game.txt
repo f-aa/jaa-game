@@ -57,6 +57,8 @@ Shinies
 			$boost=1
 			if (have clover) $boost=4
 			if (chance(25%))
+				//multiply yield of bunnyButton by 3 and multiply yield of bunnies by 3 for 60 seconds
+			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
 				toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
