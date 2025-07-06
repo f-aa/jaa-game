@@ -136,9 +136,6 @@ Buildings
 		on tick:yield 6720 bunnies
 		req:2400000 bunnies:earned
 
-	*robot|robots
-		name:robot|robots
-		desc:constantly takes care of plants.<//><b>Effect:</b><.>P
 	*multiplier|multipliers
 		name:multiplier|multipliers
 		desc:clones plants to make even more plants!<//><b>Effect:</b><.>Produces 12.56k plants per second.
