@@ -56,10 +56,7 @@ Shinies
 		on click:
 			$boost=1
 			if (have clover) $boost=4
-			if (chance(25%))
-				multiply yield of bunnyButton by 3
-           			multiply yield of bunnies by 3
-			else if (chance(25%))
+			(chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
 				toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
@@ -165,7 +162,7 @@ Buildings
 
 	*Digitalplanter|Digitalplanters
 		name:Digital planter|Digital planters
-		desc:Plants digital plants in the internet!<//><b>Effect:</><.>Produces 1.1m plants per second.
+		desc:Plants digital plants in the internet!<//><b>Effect:</b><.>Produces 1.1m plants per second.
 		icon:icons[3,12]
 		cost:3660000000 bunnies
 		on tick:yield 1100000 bunnies
@@ -173,19 +170,27 @@ Buildings
 
 	*3Dprinter|3Dprinters
 		name:3D printer|3D printers
-		desc:prints plants out of thin air.<//><b>Effect:</><.>Produces 24.3m plants per second.
+		desc:prints plants out of thin air.<//><b>Effect:</b><.>Produces 24.3m plants per second.
 		icon:icons[3,13]
 		cost:87000000000 bunnies
 		on tick:yield 24300000 bunnies
 		req:87000000000 bunnies:earned and Technology
+
+	*solargenerator|solargenerators
+		name:solar generator|solar generators
+		desc:creates plants out of solar power.<//><b>Effect:</b><.>Produces 344.8m plants per second.
+		icon:icons[1,14]
+		cost:567000000000 bunnies
+		on tick:yield 344800000 bunnies
+		req:567000000000 bunnies:earned and Technology
 
 	*fortress
 		name:the core seed
 		text:the core seed ([this]%)
 		desc:This is it. the core seed. once this is created and planted, the plants will finaly rule the world!<//><b>The core seed is [this]% complete.</b>
 		icon:icons[3,8]
-		cost:100000000000 bunnies
-		req:100000000000 bunnies:earned and Technology
+		cost:1000000000000 bunnies
+		req:1000000000000 bunnies:earned and Technology
 		limit:100
 		cost increase:100%
 		
