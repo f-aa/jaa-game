@@ -136,6 +136,9 @@ Buildings
 		on tick:yield 6720 bunnies
 		req:2400000 bunnies:earned
 
+	*robot|robots
+		name:robot|robots
+		desc:constantly takes care of plants.<//><b>Effect:</b><.>P
 	*multiplier|multipliers
 		name:multiplier|multipliers
 		desc:clones plants to make even more plants!<//><b>Effect:</b><.>Produces 12.56k plants per second.
@@ -179,7 +182,7 @@ Buildings
 	*solargenerator|solargenerators
 		name:solar generator|solar generators
 		desc:creates plants out of solar power.<//><b>Effect:</b><.>Produces 344.8m plants per second.
-		icon:icons[1,14]
+		icon:icons[3,14]
 		cost:567000000000 bunnies
 		on tick:yield 344800000 bunnies
 		req:567000000000 bunnies:earned and Technology
@@ -311,6 +314,14 @@ Upgrades
 		cost:10000000000 bunnies
 		passive:multiply bunny yield of bunnyButton by 5
 		req:10000000000 bunnies:earned
+
+	*robot|robots
+		name:robot|robots
+		desc:constantly takes care of plants.<//><b>Effect:</b><.>plants/click x5
+		icon:icons[1,13]
+		cost:50000000000 bunnies
+		passive:multiply bunny yield of bunnyButton by 5
+		req:50000000000 bunnies:earned and Technology
 
 	//building upgrades
 	
@@ -465,7 +476,7 @@ Achievements
 		name:this must be boring.
 		desc:Click the leaf <b>1000000</b> times.
 		req:1000000 bunnyButton clicks
-		icon:icons[2,2] icons[0,5] icons[0,6]
+		icon:icons[2,2] icons[0,8] icons[0,6] icons[0,4]
 
 	*bunnyPsAchiev1
 		name:Be vewy vewy quiet
