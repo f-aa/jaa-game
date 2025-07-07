@@ -184,13 +184,21 @@ Buildings
 		on tick:yield 344800000 bunnies
 		req:567000000000 bunnies:earned and Technology
 
+	*telaporter|telaporters
+		name:telaporter|telaporters
+		desc:telaportes plants from one planet to this one!<//><Mb>Effect:</b><.>Produces 1.2b plants per second.
+		icon:icons[3,15]
+		cost:2400000000000 bunnies
+		on tick:yield 1200000000 bunnies
+		req:2400000000000 bunnies:earned and Technology
+
 	*fortress
 		name:the core seed
 		text:the core seed ([this]%)
 		desc:This is it. the core seed. once this is created and planted, the plants will finaly rule the world!<//><b>The core seed is [this]% complete.</b>
 		icon:icons[3,8]
-		cost:1000000000000 bunnies
-		req:1000000000000 bunnies:earned and Technology
+		cost:10000000000000 bunnies
+		req:10000000000000 bunnies:earned and Technology
 		limit:100
 		cost increase:100%
 		
