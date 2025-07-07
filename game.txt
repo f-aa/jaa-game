@@ -320,13 +320,21 @@ Upgrades
 		passive:multiply bunny yield of bunnyButton by 5
 		req:10000000000 bunnies:earned
 
-	*robot|robots
-		name:robot|robots
+	*robot
+		name:robot
 		desc:constantly takes care of plants.<//><b>Effect:</b><.>plants/click x5
 		icon:icons[1,13]
 		cost:50000000000 bunnies
 		passive:multiply bunny yield of bunnyButton by 5
 		req:50000000000 bunnies:earned and Technology
+
+	*lazerMachine
+		name:lazer Machine
+		desc:burns all trash so plants can have a better life.<//><b>Effect</b><.>plants/click x5
+		icon:icons[1,14]
+		cost:100000000000 bunnies
+		passive:multiply bunny yield of bunnyButton by 5
+		req:100000000000 bunnies:earned and Technology
 
 	//building upgrades
 	
