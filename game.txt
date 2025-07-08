@@ -192,13 +192,21 @@ Buildings
 		on tick:yield 1200000000 bunnies
 		req:2400000000000 bunnies:earned and Technology
 
+	*ArtisticGenerator|ArtisticGenerators
+		name:ArtisticGenerator|ArtisticGenerators
+		desc:Turns art and music about plants into real-life plants!<//><b>Effect:</b><.>Produces 43.7b plants per second.
+		icon:icons[3,16]
+		cost:67300000000000 bunnies
+		on tick:yield 43700000000 bunnies
+		req:67300000000000 bunnies:earned and Technology
+		
 	*fortress
 		name:the core seed
 		text:the core seed ([this]%)
 		desc:This is it. the core seed. once this is created and planted, the plants will finaly rule the world!<//><b>The core seed is [this]% complete.</b>
 		icon:icons[3,8]
-		cost:10000000000000 bunnies
-		req:10000000000000 bunnies:earned and Technology
+		cost:100000000000000 bunnies
+		req:100000000000000 bunnies:earned and Technology
 		limit:100
 		cost increase:100%
 		
@@ -335,6 +343,14 @@ Upgrades
 		cost:100000000000 bunnies
 		passive:multiply bunny yield of bunnyButton by 5
 		req:100000000000 bunnies:earned and Technology
+
+	*metalicPlant
+		name:metalic plant
+		desc:a super special plant made of medal!<//><b>Effect:</b><.>plants/click x5
+		icon:icons[1,15]
+		cost:250000000000 bunnies
+		passive:multiply bunny yield of bunnyButton by 5
+		req:250000000000 bunnies:earned and Technology
 
 	//building upgrades
 	
