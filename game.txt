@@ -508,40 +508,47 @@ Achievements
 		icon:icons[2,2] icons[0,8] icons[0,6] icons[0,4]
 
 	*bunnyPsAchiev1
-		name:Be vewy vewy quiet
-		desc:Produce <b>10</b> bunnies per second.
+		name:Plant producer
+		desc:Produce <b>10</b> plants per second.
 		req:10 bunnies per second
 		icon:icons[2,3] icons[0,2] icons[0,6]
 	*bunnyPsAchiev2
-		name:Hop and a skip
-		desc:Produce <b>1000</b> bunnies per second.
+		name:Plant creater
+		desc:Produce <b>1000</b> plants per second.
 		req:1000 bunnies per second
 		icon:icons[2,3] icons[0,3] icons[0,6]
 	*bunnyPsAchiev3
-		name:Go forth and multiply
-		desc:Produce <b>100000</b> bunnies per second.
+		name:Plant master
+		desc:Produce <b>100000</b> plants per second.
 		req:100000 bunnies per second
 		icon:icons[2,3] icons[0,4] icons[0,6]
 		
 	*carrotAchiev1
-		name:Isn't it neat
-		desc:Have <b>1</b> golden carrot.
+		name:ooh, shiny.
+		desc:Have <b>1</b> golden leafs.
 		req:1 goldenCarrot
 		icon:icons[0,1] icons[0,2]
 	*carrotAchiev2
-		name:All that glitters
-		desc:Have <b>100</b> golden carrots.
+		name:leafs that shine.
+		desc:Have <b>100</b> golden leafs.
 		req:100 goldenCarrot
 		icon:icons[0,1] icons[0,3]
 	*carrotAchiev3
-		name:Zero nutritional value
-		desc:Have <b>1000</b> golden carrots.
+		name:not so valuble anymore, are they?
+		desc:Have <b>1000</b> golden leafs.
 		req:1000 goldenCarrot
 		icon:icons[0,1] icons[0,4]
 	
 	*fortressAchiev
-		name:Freedom!
-		desc:Complete building the <b>freedom fortress</b>.<//>This is it. You beat the game!
+		name:plant clicker
+		desc:Complete building the <b>The core seed</b>.<//>After so long, the plants finsly rule the world!
 		req:100 fortress
 		icon:icons[3,8] icons[0,4]
-		
+
+	*TechAchiev
+		name:A new era
+		desc:obtain the upgrade<b>Technology.
+		req:1 Technology
+		icon:icons[2,8] icons [0,4]
+
+	*
