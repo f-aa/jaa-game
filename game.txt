@@ -550,5 +550,3 @@ Achievements
 		desc:obtain the upgrade<b>Technology.
 		req:1 Technology
 		icon:icons[2,8] icons [0,4]
-
-	*
