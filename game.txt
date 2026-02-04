@@ -544,9 +544,3 @@ Achievements
 		desc:Complete building the <b>The core seed</b>.<//>After so long, the plants finsly rule the world!
 		req:100 fortress
 		icon:icons[3,8] icons[0,4]
-
-	*TechAchiev
-		name:A new era
-		desc:obtain the upgrade<b>Technology.
-		req:1 Technology
-		icon:icons[2,8] icons [0,4]
