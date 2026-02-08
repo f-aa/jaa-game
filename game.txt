@@ -471,7 +471,7 @@ Upgrades
 		name:Moon gardens
 		desc:The royal botanists in your moon citadels have found new ways of cultivating plants in reduced gravity!<//><b>Effect:</b><.>moon citadels now produce 1 golden carrot every 100 seconds
 		icon:icons[2,9]
-		cost:100 goldenCarrots
+		cost:50 goldenCarrots
 		req:50 goldenCarrots:earned
 		
 Achievements
