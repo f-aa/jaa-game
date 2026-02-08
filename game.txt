@@ -203,7 +203,7 @@ Buildings
 	*Planet|Planets
 		name:Planet|Planets
 		desc:Explore infinite amounts of planets to find for plants.<//><b>Effect:</b><.>Produces 610b plants per second.
-		incon:icons[3,17]
+		icon:icons[3,17]
 		cost:320000000000000 bunnies
 		on tick:yield 610000000000 bunnies
 		req:320000000000000 bunnies:earned and Technology
